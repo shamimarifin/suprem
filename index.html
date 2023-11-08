@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Big Review | Portfolio</title>
+    <!-- Fontawesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <nav>
+                <img src="img/logo.png" alt="" class="logo">
+
+                <ul id="sideMenu">
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closetab()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="opentab()"></i>
+            </nav>
+
+            <div class="header_text">
+
+               <p>Hi !</p>
+               <h1>I'm <span>Zovan</span><br> From America</h1>
+                
+
+                <div class="social_links">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                    <a href="#"><i class="fa-brands fa-dribbble"></i></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!----------- About -------------- -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about_col_left">
+                    <img src="img/person.jpg" alt="">
+                </div>
+                <div class="about_col_right">
+                    <h2 class="sub_title">About Me</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam similique saepe ab perferendis accusamus et a, debitis fugit impedit laboriosam maxime deserunt quaerat quibusdam, repudiandae inventore? Ipsam tenetur suscipit doloremque!</p>
+
+                    <div class="tab_titles">
+                        <p class="tab_links active_links" onclick="opentab('skills')">Skills</p>
+                        <p class="tab_links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab_links" onclick="opentab('education')">Eduction</p>
+                    </div>
+
+                    <div class="tab_contents active_tabs" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span> <br> Web/App Interface</li>
+                            <li><span>Web</span> <br> Web Development</li>
+                            <li><span>App</span> <br> App Development</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab_contents" id="experience">
+                        <ul>
+                            <li><span>2023 - Current </span> <br> Well Up Technology</li>
+                            <li><span>2020</span> <br> Softtech-it</li>
+                            <li><span>2018</span> <br> Definesoft</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab_contents" id="education">
+                        <ul>
+                            <li><span>2012</span> <br> Primary School Certificate</li>
+                            <li><span>2018</span> <br> Secondary School Certificate</li>
+                            <li><span>2023</span> <br> Diploma Engineer in CSE</li>
+                        </ul>
+                    </div>
+
+                        <div class="about_grid_list">
+                            <div class="about_first_grid boxshadow">
+                                <i class="fa-solid fa-people-arrows"></i>
+                                <h3>50</h3>
+                                <span>Happy Clients</span>
+                            </div>
+                            <div class="about_second_grid boxshadow">
+                                <i class="fa-solid fa-diagram-project"></i>
+                                <h3>40+</h3>
+                                <span>Project Launched</span>
+                            </div>
+                            <div class="about_third_grid boxshadow">
+                                <i class="fa-solid fa-earth-americas"></i>
+                                <h3>10+</h3>
+                                <span>Countries</span>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ------------- Services ------------ -->
+    <section id="services">
+        <div class="container">
+            <h2 class="sub_title">My Services</h2>
+                <div class="service_list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h3>Web Design</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis, numquam ipsum tempora consectetur accusamus nam accusantium dicta necessitatibus repellendus. Excepturi.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-crop-simple"></i>
+                        <h3>Web Design</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis, numquam ipsum tempora consectetur accusamus nam accusantium dicta necessitatibus repellendus. Excepturi.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-store"></i>
+                        <h3>Web Design</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis, numquam ipsum tempora consectetur accusamus nam accusantium dicta necessitatibus repellendus. Excepturi.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+
+                </div>
+            
+        </div>
+    </section>
+
+    <!-- ---- ------- Portfolio -------------- -->
+    
+    <section id="portfolio">
+        <div class="container">
+            <h2 class="sub_title">My Work</h2>
+            <div class="row">
+                <div class="work_lists">
+                    <div class="work">
+                        <img src="img/work-1.jpg" alt="">
+
+                        <div class="layer">
+                            <h2>Social Media</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, porro.</p>
+                            <a href="#"> <i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="work">
+                        <img src="img/work-2.jpg" alt="">
+
+                        <div class="layer">
+                            <h2>Social Media</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, porro.</p>
+                            <a href="#"> <i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="work">
+                        <img src="img/work-3.jpg" alt="">
+
+                        <div class="layer">
+                            <h2>Social Media</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, porro.</p>
+                           <a href="#"> <i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+
+            <a href="#" class="btn">See More</a>
+        </div>
+    </section>
+
+
+    <!-- ---------------- Contact ------------- -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact_left">
+                    <h2 class="sub_title">Contact Me</h2>
+                    <p><span><i class="fa-solid fa-paper-plane"></i></span> contact@example.com</p>
+                    <p><span><i class="fa-solid fa-phone"></i></span> 0187909999</p>
+
+                    <a href="#" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact_right">
+                    <form>
+                        <input type="text" name="yourname" id="" placeholder="Your name" required>
+                        <input type="email" name="youremail" id="" placeholder="Your email" required>
+                        <textarea name="message" rows="6" placeholder="Your message"></textarea>
+
+                        <button type="submit" class="btn btn2">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright © Shamim. <i class="bx bxs-heart"></i> Made with by Me.</p>
+        </div>
+    </section>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
